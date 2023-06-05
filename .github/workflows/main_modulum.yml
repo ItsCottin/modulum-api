@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'modulum'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_741634AB4C9346D5ACE0BED413E1889F }}
-          package: dist
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_724F62906D074508B139E340258D57F0 }}
+          package: .
