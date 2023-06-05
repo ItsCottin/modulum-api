@@ -4,10 +4,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Home</router-link>
+            <router-link class="nav-link" :to="{name:'login'}">Login</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">About</router-link>
+            <router-link class="nav-link" :to="{name:'cadastro'}">Cadastro</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :to="{name:'inicio'}">Inicio</router-link>
           </li>
         </ul>
       </div>
@@ -17,6 +20,10 @@
     <router-view/>
   </div>
 </template>
+
+<script setup>
+
+</script>
 
 <style lang="scss">
 #app {
