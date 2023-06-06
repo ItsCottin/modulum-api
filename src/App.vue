@@ -1,49 +1,75 @@
 <template>
-  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="navbar-brand" href="#">
-              <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-              Bootstrap
-            </a>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{name:'login'}">Login</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{name:'cadastro'}">Cadastro</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{name:'inicio'}">Inicio</router-link>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="mt-5 align-self-center">
-    <router-view/>
-  </div>
+  <v-app id="inspire">
+    <v-navigation-drawer v-model="drawer">
+      <v-card class="mx-auto pa-2" max-width="300" height="100vh">
+        <v-list>
+          <v-list-subheader>MENU</v-list-subheader>
+          <v-list-item active-color="primary" rounded="xl" title="Inicio" :to="{name:'inicio'}">
+            <template v-slot:prepend>
+              <v-icon icon="$vuetify"></v-icon>
+            </template>
+            <v-list-item-title v-text="Inicio"></v-list-item-title>
+          </v-list-item>
+          <v-list-item active-color="primary" rounded="xl" title="Login" :to="{name:'login'}">
+            <template v-slot:prepend>
+              <v-icon icon="mdi-account"></v-icon>
+            </template>
+            <v-list-item-title v-text="Login"></v-list-item-title>
+          </v-list-item>
+          <v-list-item active-color="primary" rounded="xl" title="Cadastro" :to="{name:'cadastro'}">
+            <template v-slot:prepend>
+              <v-icon icon="mdi-account-multiple"></v-icon>
+            </template>
+            <v-list-item-title v-text="Cadastro"></v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-card>
+    </v-navigation-drawer>
+
+    <v-app-bar>
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+
+      <v-toolbar-title>MODULUM</v-toolbar-title>
+      <v-spacer></v-spacer>
+
+      <v-btn icon>
+        <v-icon>mdi-export</v-icon>
+      </v-btn>
+    </v-app-bar>
+
+    <v-main>
+      
+      <v-sheet class="bg-deep-purple pt-12 pa-1" rounded>
+        <!-- Local onde as paginas serão renderizadas -->
+        <router-view/>
+      </v-sheet>
+      
+    </v-main>
+    
+  </v-app>
 </template>
 
-<script setup>
-
-</script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-nav {
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-  }
+<style>
+.bg-deep-purple {
+  height: 100vh;
+  z-index: -1;
 }
 </style>
+
+<script>
+
+  export default {
+
+    data: () => ({ 
+      drawer: null,
+
+      // Itens do Menu
+      items: [
+        { text: 'Real-Time', icon: 'mdi-clock' },
+        { text: 'Audience', icon: 'mdi-account' },
+        { text: 'Conversions', icon: 'mdi-flag' },
+      ],
+    }),
+  }
+
+</script>

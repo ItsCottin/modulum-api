@@ -1,25 +1,39 @@
 <template>
-  <div class="container">
-        <div class="wrapper d-flex align-items-center justify-content-center h-100">
-            <div class="card login-form">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Login</h5>
-                    <form>
-                        <div class="mb-3">
-                            <label for="inputLogin" class="form-label">Usuário:</label>
-                            <input type="text" class="form-control" id="inputLogin" aria-describedby="Nome de Usuário">
-                        </div>
-                        <div class="mb-3">
-                            <label for="inputSenha" class="form-label">Senha:</label>
-                            <input type="password" class="form-control" id="inputSenha">
-                        </div>
-                        <button class="btn btn-primary w-100">Entrar</button>
-                        <div class="sign-up mt-4">
-                            Não tem conta? <RouterLink :to="{name:'cadastro'}" >Cadastre-se</RouterLink>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    <v-card class="mx-auto" max-width="344" title="Login">
+        <v-container>
+            <v-form v-model="form" @submit.prevent="onSubmit" >
+                <v-text-field v-model="usuario" :readonly="loading" :rules="[required]" class="mb-2" clearable label="Usuário" variant="underlined"></v-text-field>
+                <v-text-field v-model="password" :readonly="loading" :rules="[required]" clearable label="Senha" placeholder="Informe sua Senha" variant="underlined"></v-text-field>
+                <v-card-actions>
+                    <v-spacer></v-spacer>
+                    <v-btn color="success">Entrar
+                        <v-icon icon="mdi-chevron-right" end></v-icon>
+                    </v-btn>
+                </v-card-actions>
+            </v-form>
+        </v-container>
+    </v-card>
 </template>
+<script>
+export default {
+    data: () => ({
+        form: false,
+        usuario: null,
+        password: null,
+        loading: false,
+    }),
+
+    methods: {
+        onSubmit () {
+            if (!this.form) return
+
+            this.loading = true
+
+            setTimeout(() => (this.loading = false), 2000)
+        },
+        required (v) {
+            return !!v || 'Campo Obrigaório'
+        },
+    },
+}
+</script>
