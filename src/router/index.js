@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NProgress from 'nprogress';
-import 'nprogress/nprogress.css';
+import '@/assets/nprogress.css';
 
 const routes = [
   {

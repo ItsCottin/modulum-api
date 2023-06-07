@@ -51,7 +51,7 @@
 
 <style>
 .bg-deep-purple {
-  height: 100vh;
+  height: 100%;
   z-index: -1;
 }
 </style>
