@@ -7,13 +7,9 @@
             <v-row>
               <v-col cols="12" md="12">
                 <v-card-text class="mt-12">
-                  <h4 class="text-center">
-                    Preencha para criar uma conta
-                  </h4>
-                  <h6 class="text-center  grey--text ">
-                    Vamos preparar tudo para que voce possa comecar a criar seu <br>
-                    primeiro sistema dentro da nossa plataforma
-                  </h6>
+                  <v-row align="center" justify="center">
+                    <h2 class="text-h4 font-weight-black text-orange">Cadastro</h2>
+                  </v-row>
                   <v-row align="center" justify="center">
                     <v-col cols="12" sm="8">
                       <v-row class="mt-9">
@@ -47,7 +43,7 @@
                       </div>
                       <div style="  text-align: center;">
                         <v-card-text class="white--text">
-                          <h3 class="text-center ">
+                          <h3 class="text-center">
                             Ja tem uma conta?
                           </h3>
                           <h6 class="text-center">

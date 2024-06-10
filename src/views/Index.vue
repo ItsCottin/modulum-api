@@ -4,7 +4,7 @@
       <v-container class="bg-surface-variant mb-6">
         <v-row align="center" justify="center" align-self="center">
           <v-col cols="12" xs="12" sm="12" md="10" lg="8" xl="6" xxl="5" class="text-center">
-            <h2 class="text-h4 font-weight-black text-orange">Bem vindo ao modulo!</h2>
+            <h2 class="text-h4 font-weight-black text-orange">Bem vindo ao modulum!</h2>
             <v-row class="mt-12">
               <v-col>
                 <v-row align="center" justify="center" align-self="center">

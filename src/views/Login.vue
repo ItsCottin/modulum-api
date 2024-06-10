@@ -7,12 +7,9 @@
             <v-row>
               <v-col cols="12" md="12">
                 <v-card-text class="mt-12">
-                  <h4 class="text-center">
-                    Faca login na sua conta
-                  </h4>
-                  <h6 class="text-center  grey--text ">
-                    Faca login em sua conta para continuar criando e editando <br>seus sistemas
-                  </h6>
+                  <v-row align="center" justify="center">
+                    <h2 class="text-h4 font-weight-black text-orange">Login</h2>
+                  </v-row>
                   <v-row align="center" justify="center">
                     <v-col cols="12" sm="8">
                       <v-text-field variant="outlined" label="Email" color="blue" autocomplete="false" class="mt-16" />
