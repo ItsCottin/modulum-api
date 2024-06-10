@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
   <PropertyGroup>
     <StartupCommand>npm run dev</StartupCommand>
     <JavaScriptTestRoot>.\</JavaScriptTestRoot>
@@ -9,6 +9,8 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="src\plugins\" />
+    <Folder Include="src\store\" />
     <Folder Include="src\router\" />
   </ItemGroup>
 </Project>

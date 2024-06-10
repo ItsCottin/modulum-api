@@ -1,17 +1,35 @@
 <template>
-    <main>
-        <RouterView />
-    </main>
+  <v-app>
+    <v-progress-linear v-if="isLoading"
+                       indeterminate
+                       color="primary"
+                       height="4"
+                       absolute
+                       top></v-progress-linear>
+    <v-main>
+
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-    //import Card from 'primevue/card';
-    import { ref } from 'vue';
+import { mapState } from 'vuex';
 
-    const msg = ref('');
-    export default {
-        name: 'App',
-        components: {}
-    };
+export default {
+  name: 'App',
+  computed: {
+    ...mapState({
+      isLoading: state => state.isLoading,
+    }),
+  },
+};
 </script>
 
+<style>
+.v-progress-linear {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Certifique-se de que o z-index é alto o suficiente */
+}
+</style>
