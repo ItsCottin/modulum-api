@@ -8,10 +8,10 @@
               <v-col cols="12" md="12">
                 <v-card-text class="mt-12">
                   <h4 class="text-center">
-                    Faça login na sua conta
+                    Faca login na sua conta
                   </h4>
                   <h6 class="text-center  grey--text ">
-                    Faça login em sua conta para continuar criando e editando <br>seus sistemas
+                    Faca login em sua conta para continuar criando e editando <br>seus sistemas
                   </h6>
                   <v-row align="center" justify="center">
                     <v-col cols="12" sm="8">
@@ -40,10 +40,10 @@
                       <div style="  text-align: center;">
                         <v-card-text class="white--text">
                           <h3 class="text-center ">
-                            Não tem uma conta ainda?
+                            Nao tem uma conta ainda?
                           </h3>
                           <h6 class="text-center">
-                            Vamos preparar tudo para que você possa criar sua primeira conta
+                            Vamos preparar tudo para que voce possa criar sua primeira conta
                           </h6>
                         </v-card-text>
                         <div class="text-center">
@@ -54,7 +54,6 @@
                   </v-row>
                 </v-card-text>
               </v-col>
-
             </v-row>
           </v-col>
         </v-row>
@@ -62,24 +61,3 @@
     </v-main>
   </v-app>
 </template>
-
-<script>
-  import { mapState } from 'vuex';
-
-  export default {
-    name: 'App',
-    computed: {
-      ...mapState({
-        isLoading: state => state.isLoading,
-      }),
-    },
-  };
-</script>
-
-<style>
-  /* Certifique-se de que a barra de progresso está na posição correta */
-  .v-progress-linear {
-    position: fixed;
-    width: 100%;
-  }
-</style>

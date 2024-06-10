@@ -1,13 +1,7 @@
 <template>
   <v-app>
-    <v-progress-linear v-if="isLoading"
-                       indeterminate
-                       color="primary"
-                       height="4"
-                       absolute
-                       top></v-progress-linear>
+    <v-progress-linear v-if="isLoading" indeterminate color="primary" height="4" absolute top></v-progress-linear>
     <v-main>
-
       <router-view />
     </v-main>
   </v-app>
@@ -30,6 +24,6 @@ export default {
 .v-progress-linear {
   position: fixed;
   width: 100%;
-  z-index: 1000; /* Certifique-se de que o z-index é alto o suficiente */
+  z-index: 1000;
 }
 </style>

@@ -24,7 +24,6 @@ const routes = [
         name: 'Register',
         component: Register
     }
-    //{ path: '/about', component: AboutView },
 ]
 
 const router = createRouter({
@@ -38,9 +37,9 @@ router.beforeEach((to, from, next) => {
 });
 
 router.afterEach(() => {
-    setTimeout(() => { // Adicione um pequeno atraso para ver a barra de progresso
+    setTimeout(() => {
         store.dispatch('stopLoading');
-    }, 500); // Altere o tempo conforme necessário
+    }, 500);
 });
 
 export default router

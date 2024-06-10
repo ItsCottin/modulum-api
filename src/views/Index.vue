@@ -38,7 +38,6 @@
 </script>
 
 <style>
-  /* Certifique-se de que a barra de progresso está na posição correta */
   .v-progress-linear {
     position: fixed;
     width: 100%;

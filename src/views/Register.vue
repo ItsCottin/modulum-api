@@ -11,7 +11,7 @@
                     Preencha para criar uma conta
                   </h4>
                   <h6 class="text-center  grey--text ">
-                    Vamos preparar tudo para que você possa começar a criar seu <br>
+                    Vamos preparar tudo para que voce possa comecar a criar seu <br>
                     primeiro sistema dentro da nossa plataforma
                   </h6>
                   <v-row align="center" justify="center">
@@ -48,10 +48,10 @@
                       <div style="  text-align: center;">
                         <v-card-text class="white--text">
                           <h3 class="text-center ">
-                            Já tem uma conta?
+                            Ja tem uma conta?
                           </h3>
                           <h6 class="text-center">
-                            Vamos preparar tudo para que você possa entrar na sua conta
+                            Vamos preparar tudo para que voce possa entrar na sua conta
                           </h6>
                         </v-card-text>
                         <div class="text-center">
@@ -69,22 +69,3 @@
     </v-main>
   </v-app>
 </template>
-
-<script>import { mapState } from 'vuex';
-
-export default {
-  name: 'App',
-  computed: {
-    ...mapState({
-      isLoading: state => state.isLoading,
-    }),
-  },
-};</script>
-
-<style>
-  /* Certifique-se de que a barra de progresso está na posição correta */
-  .v-progress-linear {
-    position: fixed;
-    width: 100%;
-  }
-</style>
