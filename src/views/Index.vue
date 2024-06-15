@@ -9,7 +9,8 @@
               <v-col>
                 <v-row align="center" justify="center" align-self="center">
                   <p class="text-body-2 mb-4">
-                    O sistema ainda esta em desenvolvimento mais voce pode acessar no botao abaixo
+                    O sistema ainda esta em desenvolvimento mais voce pode acessar no botao abaixo<br /> Versao do sistema:  {{ projectVersion }}
+
                   </p>
                 </v-row>
                 <v-row align="center" justify="center" class="align-end">
@@ -34,6 +35,11 @@
         isLoading: state => state.isLoading,
       }),
     },
+    data() {
+      return {
+    projectVersion: process.env.PROJECT_VERSION,
+  };
+},
   };
 </script>
 

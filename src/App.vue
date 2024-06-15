@@ -18,6 +18,12 @@ export default {
       isLoading: state => state.isLoading,
     }),
   },
+
+  data() {
+    return {
+      projectVersion: process.env.PROJECT_VERSION,
+    };
+  }
 };
 </script>
 
