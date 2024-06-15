@@ -25,7 +25,7 @@ jobs:
         run: |
           VERSION=$(curl -H "Authorization: Bearer ${{ secrets.TOKEN_MOD_GOD }}" \
                         -H "Accept: application/vnd.github.v3+json" \
-                        https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION \
+                        https://api.github.com/repos/ItsCottin/modulum/environments/github-pages/variables/VERSION \
                         | jq -r '.value')
           echo "current_version=$VERSION" >> $GITHUB_ENV
       - name: Increment version
@@ -82,4 +82,4 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -H "Content-Type: application/json" \
             -d "{\"name\":\"VERSION\", \"value\":\"$NEW_VERSION\"}" \
-            https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION
+            https://api.github.com/repos/ItsCottin/modulum/environments/github-pages/variables/VERSION
