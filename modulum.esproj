@@ -9,6 +9,10 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="src\views\Login - Cópia.vue" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".github\workflows\" />
     <Folder Include="src\plugins\" />
     <Folder Include="src\store\" />
     <Folder Include="src\router\" />

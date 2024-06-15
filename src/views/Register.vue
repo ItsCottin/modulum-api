@@ -5,19 +5,19 @@
         <v-row align="center" justify="center">
           <v-col cols="12" xs="12" sm="12" md="10" lg="8" xl="6" xxl="5">
             <v-row>
-              <v-col cols="12" md="12">
-                <v-card-text class="mt-12">
+              <v-col cols="12">
+                <v-card-text class="mt-6">
                   <v-row align="center" justify="center">
                     <h2 class="text-h4 font-weight-black text-orange">Cadastro</h2>
                   </v-row>
                   <v-row align="center" justify="center">
                     <v-col cols="12" sm="8">
-                      <v-row class="mt-9">
+                      <v-row class="mt-6">
                         <v-col cols="12" sm="6">
-                          <v-text-field variant="outlined" label="Primeiro Nome" color="blue" autocomplete="false" class="mt-4" />
+                          <v-text-field variant="outlined" label="Primeiro Nome" color="blue" autocomplete="false" />
                         </v-col>
                         <v-col cols="12" sm="6">
-                          <v-text-field variant="outlined" label="Sobrenome" color="blue" autocomplete="false" class="mt-4" />
+                          <v-text-field variant="outlined" label="Sobrenome" color="blue" autocomplete="false" />
                         </v-col>
                       </v-row>
                       <v-text-field variant="outlined" label="Nome de Login" color="blue" autocomplete="false" />
@@ -26,21 +26,6 @@
                       <v-text-field variant="outlined" label="Confirme Senha" color="blue" autocomplete="false" type="password" />
 
                       <v-btn color="dark" variant="tonal" block>Cadastrar</v-btn>
-
-                      <h5 class="text-center  grey--text mt-4 mb-3">
-                        Ou entre com:
-                      </h5>
-                      <div class="d-flex justify-center align-center mx-3 mb-3">
-                        <v-btn class="mx-2" variant="tonal" color="grey">
-                          <v-icon color="red">fab fa-google</v-icon>
-                        </v-btn>
-                        <v-btn class="mx-2" variant="tonal" color="grey">
-                          <v-icon color="blue">fab fa-facebook-f</v-icon>
-                        </v-btn>
-                        <v-btn class="mx-2" variant="tonal" color="grey">
-                          <v-icon color="light-blue lighten-3">fab fa-twitter</v-icon>
-                        </v-btn>
-                      </div>
                       <div style="  text-align: center;">
                         <v-card-text class="white--text">
                           <h3 class="text-center">
