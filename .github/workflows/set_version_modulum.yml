@@ -1,0 +1,12 @@
+name: set_version_modulum
+
+on:
+  workflow_dispatch
+
+jobs:
+  top-secret:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Lendo variavel
+        run: echo "Minha variavel ${{ vars.VERSION }}"
