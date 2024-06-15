@@ -15,21 +15,4 @@ jobs:
     steps:
       - name: Print Repository Variable
         run: |
-          echo ${{ vars.WELCOME }}
-          echo "Accesing Job envvar ${{ env.JOBENVVAR }}"
-
-      - name: Setup and Print Environment Variables
-        run: |
-          echo "Running on ${{ env.HOST }} and ${{ env.PORT }}"
-          echo "Accesing Job envvar ${{ env.JOBENVVAR }}"
-        env:
-          HOST: 'localhost'
-          PORT: '8080'
-
-      - name: Printing Global environment variables using env and vars (for configuration variables)
-        run: |
-          echo "First Name is ${{ env.FIRSTNAME }} and Last Name is ${{ env.LASTNAME }}"
-          echo "The value of GREETING is ${{ env.GREETING }}"
-          echo "The value of WELCOME is ${{ vars.WELCOME }}"
-          echo "Accesing Job envvar ${{ env.JOBENVVAR }}"
-          echo "Versao ${{ env.VERSION }}"
+          echo ${{ vars.VERSION }}
