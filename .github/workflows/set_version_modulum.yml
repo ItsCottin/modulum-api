@@ -1,32 +1,35 @@
+name: 2. Variables
+run-name: ${{ github.actor }} is running the ${{ github.workflow }}
 on:
-  workflow_dispatch:
+  - workflow_dispatch
 env:
-  # Setting an environment variable with the value of a configuration variable
-  env_var: ${{ vars.ENV_CONTEXT_VAR }}
+  FIRSTNAME: "Rodrigo"
+  LASTNAME: "Cottin"
+  VERSION: ${{ vars.VERSION }}
 
 jobs:
-  display-variables:
-    name: ${{ vars.VERSION }}
-    # You can use configuration variables with the `vars` context for dynamic jobs
-    if: ${{ vars.USE_VARIABLES == 'true' }}
-    runs-on: ${{ vars.RUNNER }}
-    environment: ${{ vars.ENVIRONMENT_STAGE }}
+  first_job:
+    runs-on: ubuntu-latest
+    env:
+      JOBENVVAR: "I am Rodrigo"
     steps:
-    - name: Use variables $
-      run: |
-        echo "repository variable : $REPOSITORY_VAR"
-        echo "organization variable : $ORGANIZATION_VAR"
-        echo "overridden variable : $OVERRIDE_VAR"
-        echo "Essa é a variavel VERSION : $VERSION"
-        echo "variable from shell environment : $env_var"
-      env:
-        REPOSITORY_VAR: ${{ vars.REPOSITORY_VAR }}
-        ORGANIZATION_VAR: ${{ vars.ORGANIZATION_VAR }}
-        OVERRIDE_VAR: ${{ vars.OVERRIDE_VAR }}
-        VERSION: ${{ vars.VERSION }}
-        
-    - name: ${{ vars.HELLO_WORLD_STEP }}
-      if: ${{ vars.HELLO_WORLD_ENABLED == 'true' }}
-      uses: actions/hello-world-javascript-action@main
-      with:
-        who-to-greet: ${{ vars.GREET_NAME }}
+      - name: Print Repository Variable
+        run: |
+          echo ${{ vars.WELCOME }}
+          echo "Accesing Job envvar ${{ env.JOBENVVAR }}"
+
+      - name: Setup and Print Environment Variables
+        run: |
+          echo "Running on ${{ env.HOST }} and ${{ env.PORT }}"
+          echo "Accesing Job envvar ${{ env.JOBENVVAR }}"
+        env:
+          HOST: 'localhost'
+          PORT: '8080'
+
+      - name: Printing Global environment variables using env and vars (for configuration variables)
+        run: |
+          echo "First Name is ${{ env.FIRSTNAME }} and Last Name is ${{ env.LASTNAME }}"
+          echo "The value of GREETING is ${{ env.GREETING }}"
+          echo "The value of WELCOME is ${{ vars.WELCOME }}"
+          echo "Accesing Job envvar ${{ env.JOBENVVAR }}"
+          echo "Versao ${{ env.VERSION }}"
