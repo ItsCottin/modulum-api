@@ -19,7 +19,7 @@
                           <span class="caption blue--text">Esqueci minha senha</span>
                         </v-col>
                       </v-row>
-                      <v-btn color="dark" variant="tonal" block>Entrar</v-btn>
+                      <v-btn color="dark" variant="tonal" block>Entrar 2</v-btn>
                       
                       <div style="  text-align: center;">
                         <v-card-text class="white--text">
