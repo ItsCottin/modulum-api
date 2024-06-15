@@ -23,22 +23,30 @@ jobs:
       - name: Get current version from GitHub environment variable
         id: get_version
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-               -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION \
-               | jq -r '.value' > current_version.txt
-          CURRENT_VERSION=$(cat current_version.txt)
-          echo "Current version: $CURRENT_VERSION"
-          echo "current_version=$CURRENT_VERSION" >> $GITHUB_ENV
+          VERSION=$(curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                        -H "Accept: application/vnd.github.v3+json" \
+                        https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION \
+                        | jq -r '.value')
+          echo "current_version=$VERSION" >> $GITHUB_ENV
 
       - name: Increment version
         id: increment_version
         run: |
           CURRENT_VERSION=${{ env.current_version }}
-          NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. -v OFS=. '{$NF++;print}')
-          echo "New version: $NEW_VERSION"
-          jq --arg new_version "$NEW_VERSION" '.version = $new_version' package.json > tmp.$$.json && mv tmp.$$.json package.json
+          
+          # Increment the version and format with leading zeros
+          NEW_VERSION=$(printf "%03d" $((10#$CURRENT_VERSION + 1)))
+          
+          # Convert to semver format x.x.x
+          SEMVER_VERSION="${NEW_VERSION:0:1}.${NEW_VERSION:1:1}.${NEW_VERSION:2:1}"
+          
+          echo "New version: $SEMVER_VERSION"
+          
+          # Update package.json
+          jq --arg new_version "$SEMVER_VERSION" '.version = $new_version' package.json > tmp.$$.json && mv tmp.$$.json package.json
+          
           echo "new_version=$NEW_VERSION" >> $GITHUB_ENV
+          echo "semver_version=$SEMVER_VERSION" >> $GITHUB_ENV
 
       - name: Build project
         run: npm run build
@@ -74,5 +82,6 @@ jobs:
           curl -X PATCH \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION \
-            -d '{"value":"'"$NEW_VERSION"'"}'
+            -H "Content-Type: application/json" \
+            -d "{\"name\":\"VERSION\", \"value\":\"$NEW_VERSION\"}" \
+            https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION
