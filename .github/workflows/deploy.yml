@@ -20,11 +20,21 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Get current version from GitHub environment variable
+        id: get_version
+        run: |
+          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/repos/${{ github.repository }}/environments/YOUR_ENVIRONMENT_NAME/variables/VERSION \
+               | jq -r '.value' > current_version.txt
+          CURRENT_VERSION=$(cat current_version.txt)
+          echo "Current version: $CURRENT_VERSION"
+          echo "current_version=$CURRENT_VERSION" >> $GITHUB_ENV
+
       - name: Increment version
         id: increment_version
         run: |
-          CURRENT_VERSION=$(jq -r '.version' package.json)
-          echo "Current version: $CURRENT_VERSION"
+          CURRENT_VERSION=${{ env.current_version }}
           NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. -v OFS=. '{$NF++;print}')
           echo "New version: $NEW_VERSION"
           jq --arg new_version "$NEW_VERSION" '.version = $new_version' package.json > tmp.$$.json && mv tmp.$$.json package.json
@@ -58,10 +68,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
 
-      - name: Update environment variable
+      - name: Update environment variable VERSION
         run: |
+          NEW_VERSION=${{ env.new_version }}
           curl -X PATCH \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/environments/YOUR_ENVIRONMENT_NAME/variables/VERSION \
-            -d '{"value":"${{ env.new_version }}"}'
+            -d '{"value":"'"$NEW_VERSION"'"}'
