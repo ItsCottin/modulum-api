@@ -25,7 +25,7 @@ jobs:
         run: |
           curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
                -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/repos/${{ github.repository }}/environments/YOUR_ENVIRONMENT_NAME/variables/VERSION \
+               https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION \
                | jq -r '.value' > current_version.txt
           CURRENT_VERSION=$(cat current_version.txt)
           echo "Current version: $CURRENT_VERSION"
@@ -74,5 +74,5 @@ jobs:
           curl -X PATCH \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/environments/YOUR_ENVIRONMENT_NAME/variables/VERSION \
+            https://api.github.com/repos/${{ github.repository }}/environments/github-pages/variables/VERSION \
             -d '{"value":"'"$NEW_VERSION"'"}'
