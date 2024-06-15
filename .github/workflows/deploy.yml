@@ -47,6 +47,17 @@ jobs:
           
           echo "new_version=$NEW_VERSION" >> $GITHUB_ENV
           echo "semver_version=$SEMVER_VERSION" >> $GITHUB_ENV
+
+      - name: Update environment variable VERSION
+        run: |
+          NEW_VERSION=${{ env.new_version }}
+          curl -X PATCH \
+            -H "Authorization: Bearer ${{ secrets.TOKEN_MOD_GOD }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Content-Type: application/json" \
+            -d "{\"name\":\"VERSION\", \"value\":\"$NEW_VERSION\"}" \
+            https://api.github.com/repos/ItsCottin/modulum/environments/github-pages/variables/VERSION
+
       - name: Build project
         run: npm run build
 
@@ -75,13 +86,3 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN_MOD_GOD }}
           publish_dir: ./dist
-
-      - name: Update environment variable VERSION
-        run: |
-          NEW_VERSION=${{ env.new_version }}
-          curl -X PATCH \
-            -H "Authorization: Bearer ${{ secrets.TOKEN_MOD_GOD }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Content-Type: application/json" \
-            -d "{\"name\":\"VERSION\", \"value\":\"$NEW_VERSION\"}" \
-            https://api.github.com/repos/ItsCottin/modulum/environments/github-pages/variables/VERSION
