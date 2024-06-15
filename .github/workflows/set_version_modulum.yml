@@ -9,4 +9,4 @@ jobs:
 
     steps: 
       - name: Lendo variavel
-        run: echo "Minha variavel ${{ vars.VERSION }}"
+        run: echo "Minha variavel" ${{ vars.VERSION }}
