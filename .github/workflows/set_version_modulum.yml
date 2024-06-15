@@ -1,32 +1,25 @@
-name: 3. Variables Set for Different Environments
-run-name: ${{ github.actor }} is running the ${{ github.workflow }}
-on:
-  - workflow_dispatch
+name: Deploy
 
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  deploy_dev:
+  build:
+    name: Build
     runs-on: ubuntu-latest
-    environment: dev
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
 
-      - name: Print Dev Variables
-        run: echo "The value of CHECK_ENVIRONMENT is ${{ vars.CHECK_ENVIRONMENT }}"
-
-  deploy_qa:
-    runs-on: ubuntu-latest
-    environment: qa
-    needs: deploy_dev
     steps:
-      - name: Print QA Variables
-        run: echo "The value of CHECK_ENVIRONMENT is ${{ vars.CHECK_ENVIRONMENT }}"
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-  deploy_prod:
-    runs-on: ubuntu-latest
-    environment: prod
-    needs: deploy_qa
-    steps:
-      - name: Print PROD Variables
-        run: echo "The value of CHECK_ENVIRONMENT is ${{ vars.CHECK_ENVIRONMENT }}"
+      - name: Setup Node
+        uses: actions/setup-node@v3
+
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Get current version from environment variable
+        id: get_version
+        run: echo "current_version=${{ vars.VERSION }}" >> $GITHUB_ENV
