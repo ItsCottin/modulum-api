@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "modulum", "modulum.esproj", "{64331160-76AD-4F0A-8365-4078B88FAB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64331160-76AD-4F0A-8365-4078B88FAB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64331160-76AD-4F0A-8365-4078B88FAB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64331160-76AD-4F0A-8365-4078B88FAB8F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{64331160-76AD-4F0A-8365-4078B88FAB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64331160-76AD-4F0A-8365-4078B88FAB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64331160-76AD-4F0A-8365-4078B88FAB8F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1282F824-7F3B-4C62-81C6-C1D41D70153B}
+	EndGlobalSection
+EndGlobal

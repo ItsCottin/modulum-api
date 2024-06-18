@@ -2,8 +2,7 @@
 /node_modules
 /dist
 /obj
-/.vs
-/.vscode
+/.vs/modulum/FileContentIndex/
 
 # Logs
 logs
@@ -30,8 +29,6 @@ coverage
 .idea
 *.suo
 *.ntvs*
-*.njsproj
-*.sln
 *.sw?
 
 *.tsbuildinfo

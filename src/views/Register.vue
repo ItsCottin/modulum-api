@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main class="bg-surface-variant">
+    <v-main class="d-flex justify-center align-center  bg-surface-variant">
       <v-container>
         <v-row align="center" justify="center">
           <v-col cols="12" xs="12" sm="12" md="10" lg="8" xl="6" xxl="5">
