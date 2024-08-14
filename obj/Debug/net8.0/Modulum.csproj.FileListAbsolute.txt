@@ -151,3 +151,4 @@ C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\refint\Modulum.dll
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.pdb
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.genruntimeconfig.cache
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\ref\Modulum.dll
+C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.sourcelink.json

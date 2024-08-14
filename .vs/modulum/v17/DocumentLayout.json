@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\_Programacao\\Projetos\\Modulum\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -27,6 +39,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "Components\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T04:26:36.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T04:26:05.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T04:25:58.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -34,12 +83,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-14T03:51:56.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T03:51:56.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Auth.razor",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Auth.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Auth.razor",
@@ -47,8 +95,7 @@
               "RelativeToolTip": "Components\\Pages\\Auth.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T03:46:11.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T03:46:11.015Z"
             }
           ]
         }
