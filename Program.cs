@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -29,7 +29,7 @@ builder.Services.AddAuthentication(options =>
     }).AddOpenIdConnect("AzureAD", options =>
     {
         builder.Configuration.Bind("AzureAD", options);
-        options.Scope.Add("");
+        options.Scope.Add("api://178f6d32-e37f-44c4-b019-1a8e45750182/access_as_user");
     }).AddIdentityCookies();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
