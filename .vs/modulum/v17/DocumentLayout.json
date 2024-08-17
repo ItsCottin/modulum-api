@@ -3,24 +3,164 @@
   "WorkspaceRootPath": "C:\\_Programacao\\Projetos\\Modulum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\shared\\externalloginpicker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\shared\\externalloginpicker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\shared\\accountlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\shared\\accountlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\shared\\managelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\shared\\managelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\shared\\managenavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\shared\\managenavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\shared\\showrecoverycodes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\shared\\showrecoverycodes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\shared\\statusmessage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\shared\\statusmessage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\manage\\email.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\manage\\email.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\manage\\personaldata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\manage\\personaldata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\manage\\resetauthenticator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\manage\\resetauthenticator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\manage\\setpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\manage\\setpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\manage\\twofactorauthentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\manage\\twofactorauthentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\resetpasswordconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\resetpasswordconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\resendemailconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\resendemailconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\registerconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\registerconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\loginwithrecoverycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\loginwithrecoverycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\loginwith2fa.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\loginwith2fa.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\lockout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\lockout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\invaliduser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\invaliduser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\invalidpasswordreset.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\invalidpasswordreset.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\forgotpasswordconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\forgotpasswordconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\forgotpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\forgotpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\confirmemailchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\confirmemailchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\account\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\account\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\data\\querybuilderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:data\\querybuilderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|c:\\_programacao\\projetos\\modulum\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0235B69-816E-4166-96CD-CEA5D97435DE}|Modulum.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,32 +178,464 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Index.razor",
-              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Index.razor",
-              "RelativeToolTip": "Components\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T04:26:36.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-14T04:26:05.807Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T22:24:08.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:07:34.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T03:51:56.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShowRecoveryCodes.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ShowRecoveryCodes.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Shared\\ShowRecoveryCodes.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ShowRecoveryCodes.razor",
+              "RelativeToolTip": "Components\\Account\\Shared\\ShowRecoveryCodes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:15.172Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Register.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Register.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Register.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:45.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Login.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Login.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Login.razor",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:46:00.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExternalLoginPicker.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ExternalLoginPicker.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Shared\\ExternalLoginPicker.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ExternalLoginPicker.razor",
+              "RelativeToolTip": "Components\\Account\\Shared\\ExternalLoginPicker.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:26.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountLayout.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\AccountLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Shared\\AccountLayout.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\AccountLayout.razor",
+              "RelativeToolTip": "Components\\Account\\Shared\\AccountLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:09.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StatusMessage.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\StatusMessage.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Shared\\StatusMessage.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\StatusMessage.razor",
+              "RelativeToolTip": "Components\\Account\\Shared\\StatusMessage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:11.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RedirectToLogin.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\RedirectToLogin.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Shared\\RedirectToLogin.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\RedirectToLogin.razor",
+              "RelativeToolTip": "Components\\Account\\Shared\\RedirectToLogin.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:16.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManageNavMenu.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ManageNavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Shared\\ManageNavMenu.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ManageNavMenu.razor",
+              "RelativeToolTip": "Components\\Account\\Shared\\ManageNavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:23.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageLayout.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ManageLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Shared\\ManageLayout.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Shared\\ManageLayout.razor",
+              "RelativeToolTip": "Components\\Account\\Shared\\ManageLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:25.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Email.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\Email.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Manage\\Email.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\Email.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Manage\\Email.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:09:03.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PersonalData.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\PersonalData.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Manage\\PersonalData.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\PersonalData.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Manage\\PersonalData.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:59.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResetAuthenticator.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:58.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SetPassword.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\SetPassword.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Manage\\SetPassword.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\SetPassword.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Manage\\SetPassword.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:57.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TwoFactorAuthentication.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:54.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResetPasswordConfirmation.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:50.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResetPassword.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ResetPassword.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ResetPassword.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ResetPassword.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ResetPassword.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:49.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ResendEmailConfirmation.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ResendEmailConfirmation.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ResendEmailConfirmation.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:47.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterConfirmation.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:46.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginWithRecoveryCode.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\LoginWithRecoveryCode.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\LoginWithRecoveryCode.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\LoginWithRecoveryCode.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\LoginWithRecoveryCode.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:43.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginWith2fa.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\LoginWith2fa.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\LoginWith2fa.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\LoginWith2fa.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\LoginWith2fa.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:38.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Lockout.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Lockout.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\Lockout.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\Lockout.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\Lockout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:35.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InvalidUser.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\InvalidUser.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\InvalidUser.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\InvalidUser.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\InvalidUser.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:34.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InvalidPasswordReset.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\InvalidPasswordReset.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\InvalidPasswordReset.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\InvalidPasswordReset.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\InvalidPasswordReset.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:32.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ForgotPasswordConfirmation.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:31.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ForgotPassword.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ForgotPassword.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ForgotPassword.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ForgotPassword.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ForgotPassword.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:30.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ExternalLogin.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ExternalLogin.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ExternalLogin.razor",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAC8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:06.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ConfirmEmailChange.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ConfirmEmailChange.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ConfirmEmailChange.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:03.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ConfirmEmail.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ConfirmEmail.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\ConfirmEmail.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\ConfirmEmail.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\ConfirmEmail.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:08:00.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AccessDenied.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\AccessDenied.razor",
+              "RelativeDocumentMoniker": "Components\\Account\\Pages\\AccessDenied.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Account\\Pages\\AccessDenied.razor",
+              "RelativeToolTip": "Components\\Account\\Pages\\AccessDenied.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:07:58.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "Components\\Pages\\Error.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:04:49.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T05:04:32.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "QueryBuilderData.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Data\\QueryBuilderData.cs",
+              "RelativeDocumentMoniker": "Data\\QueryBuilderData.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Data\\QueryBuilderData.cs",
+              "RelativeToolTip": "Data\\QueryBuilderData.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:03:54.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T05:03:49.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "Components\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T04:26:36.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\App.razor",
               "RelativeDocumentMoniker": "Components\\App.razor",
@@ -75,25 +647,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-14T03:51:56.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 36,
               "Title": "Auth.razor",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Auth.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Auth.razor",
               "ToolTip": "C:\\_Programacao\\Projetos\\Modulum\\Components\\Pages\\Auth.razor",
               "RelativeToolTip": "Components\\Pages\\Auth.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-14T03:46:11.015Z"
             }

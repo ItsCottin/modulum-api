@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Modulum.Components;
 using Modulum.Components.Account;
 using Modulum.Data;
@@ -21,8 +23,14 @@ builder.Services.AddAuthentication(options =>
     {
         options.DefaultScheme = IdentityConstants.ApplicationScheme;
         options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-    })
-    .AddIdentityCookies();
+    }).AddGoogle(options =>
+    {
+        builder.Configuration.Bind("Google", options);
+    }).AddOpenIdConnect("AzureAD", options =>
+    {
+        builder.Configuration.Bind("AzureAD", options);
+        options.Scope.Add("");
+    }).AddIdentityCookies();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

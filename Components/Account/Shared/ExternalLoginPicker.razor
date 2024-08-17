@@ -23,7 +23,12 @@ else
             <p>
                 @foreach (var provider in externalLogins)
                 {
-                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                    var displayName = provider.DisplayName;
+                    if (provider.DisplayName == "OpenIdConnect")
+                    {
+                        displayName = "Microsoft";
+                    }
+                    <button type="submit" class="btn btn-primary me-2" name="provider" value="@provider.Name" title="Log in using your @displayName account">@displayName</button>
                 }
             </p>
         </div>

@@ -152,3 +152,5 @@ C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.pdb
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.genruntimeconfig.cache
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\ref\Modulum.dll
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.sourcelink.json
+C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
