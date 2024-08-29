@@ -11,6 +11,8 @@ on:
 
 jobs:
   build:
+    name: Build
+    environment: Production
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +22,38 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
+          
+      - name: Update appsettings.json with secrets
+        env:
+          CONNECTIONSTRINGS_DEFAULTCONNECTION: ${{ secrets.CONNECTIONSTRINGS_DEFAULTCONNECTION }}
+          GOOGLE_CLIENTID: ${{ secrets.GOOGLE_CLIENTID }}
+          GOOGLE_CLIENTSECRET: ${{ secrets.GOOGLE_CLIENTSECRET }}
+          GOOGLE_REDIRECTURL: ${{ secrets.GOOGLE_REDIRECTURL }}
+          AZUREAD_AUTHORITY: ${{ secrets.AZUREAD_AUTHORITY }}
+          AZUREAD_TENANTID: ${{ secrets.AZUREAD_TENANTID }}
+          AZUREAD_CLIENTID: ${{ secrets.AZUREAD_CLIENTID }}
+          AZUREAD_SCOPES: ${{ secrets.AZUREAD_SCOPES }}
+          AZUREAD_ACCESS_AS_USER: ${{ secrets.AZUREAD_ACCESS_AS_USER }}
+        run: |
+          jq --arg CONNECTIONSTRINGS_DEFAULTCONNECTION "$CONNECTIONSTRINGS_DEFAULTCONNECTION" \
+             --arg GOOGLE_CLIENTID "$GOOGLE_CLIENTID" \
+             --arg GOOGLE_CLIENTSECRET "$GOOGLE_CLIENTSECRET" \
+             --arg GOOGLE_REDIRECTURL "$GOOGLE_REDIRECTURL" \
+             --arg AZUREAD_AUTHORITY "$AZUREAD_AUTHORITY" \
+             --arg AZUREAD_TENANTID "$AZUREAD_TENANTID" \
+             --arg AZUREAD_CLIENTID "$AZUREAD_CLIENTID" \
+             --arg AZUREAD_SCOPES "$AZUREAD_SCOPES" \
+             --arg AZUREAD_ACCESS_AS_USER "$AZUREAD_ACCESS_AS_USER" \
+             '.ConnectionStrings.DefaultConnection = $CONNECTIONSTRINGS_DEFAULTCONNECTION |
+              .Google.ClientId = $GOOGLE_CLIENTID |
+              .Google.ClientSecret = $GOOGLE_CLIENTSECRET |
+              .Google.RedirectUrl = $GOOGLE_REDIRECTURL |
+              .AzureAD.Authority = $AZUREAD_AUTHORITY |
+              .AzureAD.TenantId = $AZUREAD_TENANTID |
+              .AzureAD.ClientId = $AZUREAD_CLIENTID |
+              .AzureAD.Scopes = $AZUREAD_SCOPES |
+              .AzureAD.access_as_user = $AZUREAD_ACCESS_AS_USER' \
+             appsettings.json > tmp.$$.json && mv tmp.$$.json appsettings.json
 
       - name: Build with dotnet
         run: dotnet build --configuration Release

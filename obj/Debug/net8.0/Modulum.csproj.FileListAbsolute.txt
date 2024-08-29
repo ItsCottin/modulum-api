@@ -9,6 +9,8 @@ C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Modulum.pdb
 C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Azure.Core.dll
 C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Azure.Identity.dll
 C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Humanizer.dll
+C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -134,6 +136,7 @@ C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.AssemblyInfoInputs.cac
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.AssemblyInfo.cs
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.csproj.CoreCompileInputs.cache
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.MvcApplicationPartsAssemblyInfo.cache
+C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.sourcelink.json
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\staticwebassets.build.json
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\staticwebassets.development.json
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\staticwebassets\msbuild.Modulum.Microsoft.AspNetCore.StaticWebAssets.props
@@ -151,6 +154,3 @@ C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\refint\Modulum.dll
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.pdb
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.genruntimeconfig.cache
 C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\ref\Modulum.dll
-C:\_Programacao\Projetos\Modulum\obj\Debug\net8.0\Modulum.sourcelink.json
-C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
-C:\_Programacao\Projetos\Modulum\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

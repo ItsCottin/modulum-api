@@ -1,14 +1,20 @@
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Modulum;
 using Modulum.Components;
 using Modulum.Components.Account;
 using Modulum.Data;
 using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Configuration.SetBasePath(AppContext.BaseDirectory)
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddJsonFile("appsettings.Development.json", optional: true)
+    .AddEnvironmentVariables();
+//var configuration = builder.Build();
+//startup.ConfigureServices(builder.Services);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -29,7 +35,8 @@ builder.Services.AddAuthentication(options =>
     }).AddOpenIdConnect("AzureAD", options =>
     {
         builder.Configuration.Bind("AzureAD", options);
-        options.Scope.Add("api://178f6d32-e37f-44c4-b019-1a8e45750182/access_as_user");
+        //options.Scope.Add(""); // Valor do objeto "AzureAD", campo "access_as_user"
+        options.Scope.Add(builder.Configuration.GetValue("AzureAD", "access_as_user"));
     }).AddIdentityCookies();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -45,6 +52,7 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
 var app = builder.Build();
+//startup.Configure(app, builder.Environment);
 //Register Syncfusion license https://help.syncfusion.com/common/essential-studio/licensing/how-to-generate
 //Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
 
