@@ -218,8 +218,7 @@
               "RelativeToolTip": "Components\\Account\\Shared\\ExternalLoginPicker.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:09:26.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:09:26.282Z"
             },
             {
               "$type": "Document",
@@ -231,8 +230,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\PersonalData.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:59.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:59.96Z"
             },
             {
               "$type": "Document",
@@ -244,8 +242,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Register.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAI0AAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:45.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:45.134Z"
             },
             {
               "$type": "Document",
@@ -257,8 +254,7 @@
               "RelativeToolTip": "Components\\Account\\Shared\\RedirectToLogin.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:09:16.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:09:16.36Z"
             },
             {
               "$type": "Document",
@@ -270,8 +266,7 @@
               "RelativeToolTip": "Components\\Account\\Shared\\ManageNavMenu.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:09:23.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:09:23.841Z"
             },
             {
               "$type": "Document",
@@ -296,8 +291,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Login.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:46:00.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:46:00.283Z"
             },
             {
               "$type": "Document",
@@ -309,8 +303,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\ExternalLogins.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAACMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T01:07:40.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T01:07:40.228Z"
             },
             {
               "$type": "Document",
@@ -322,8 +315,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ForgotPassword.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:30.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:30.318Z"
             },
             {
               "$type": "Document",
@@ -335,8 +327,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ExternalLogin.razor",
               "ViewState": "AQIAAK0AAAAAAAAAAAAAAEkAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:06.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:06.624Z"
             },
             {
               "$type": "Document",
@@ -348,8 +339,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ConfirmEmailChange.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:03.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:03.465Z"
             },
             {
               "$type": "Document",
@@ -361,8 +351,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ConfirmEmail.razor",
               "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:00.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:00.483Z"
             },
             {
               "$type": "Document",
@@ -374,8 +363,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\LoginWithRecoveryCode.razor",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAFEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:43.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:43.696Z"
             },
             {
               "$type": "Document",
@@ -387,8 +375,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\LoginWith2fa.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAGEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:38.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:38.893Z"
             },
             {
               "$type": "Document",
@@ -400,8 +387,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\EnableAuthenticator.razor",
               "ViewState": "AQIAAIoAAAAAAAAAAAAAAKgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T01:05:20.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T01:05:20.976Z"
             },
             {
               "$type": "Document",
@@ -413,8 +399,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\Email.razor",
               "ViewState": "AQIAAF0AAAAAAAAAAAAAAHcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:09:03.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:09:03.47Z"
             },
             {
               "$type": "Document",
@@ -426,8 +411,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\Disable2fa.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T01:02:03.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T01:02:03.927Z"
             },
             {
               "$type": "Document",
@@ -439,8 +423,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\DeletePersonalData.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T01:01:01.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T01:01:01.715Z"
             },
             {
               "$type": "Document",
@@ -452,8 +435,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\ChangePassword.razor",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T00:59:29.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T00:59:29.81Z"
             },
             {
               "$type": "Document",
@@ -465,8 +447,7 @@
               "RelativeToolTip": "Components\\Account\\Shared\\AccountLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:09:09.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:09:09.835Z"
             },
             {
               "$type": "Document",
@@ -478,8 +459,7 @@
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T04:26:05.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T04:26:05.807Z"
             },
             {
               "$type": "Document",
@@ -491,8 +471,7 @@
               "RelativeToolTip": "Components\\App.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T04:25:58.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T04:25:58.863Z"
             },
             {
               "$type": "Document",
@@ -504,8 +483,7 @@
               "RelativeToolTip": "Components\\Pages\\Index.razor",
               "ViewState": "AQIAABsAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T04:26:36.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T04:26:36.077Z"
             },
             {
               "$type": "Document",
@@ -517,8 +495,7 @@
               "RelativeToolTip": "Components\\Pages\\Error.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:04:49.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:04:49.115Z"
             },
             {
               "$type": "Document",
@@ -530,8 +507,7 @@
               "RelativeToolTip": "Components\\Pages\\Auth.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T03:46:11.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T03:46:11.015Z"
             },
             {
               "$type": "Document",
@@ -543,8 +519,7 @@
               "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:07:34.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:07:34.337Z"
             },
             {
               "$type": "Document",
@@ -556,8 +531,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAMwCYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T22:24:08.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T22:24:08.089Z"
             },
             {
               "$type": "Document",
@@ -569,8 +543,7 @@
               "RelativeToolTip": "Components\\Account\\Shared\\ShowRecoveryCodes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:09:15.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:09:15.172Z"
             },
             {
               "$type": "Document",
@@ -582,8 +555,7 @@
               "RelativeToolTip": "Components\\Account\\Shared\\ManageLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:09:25.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:09:25.365Z"
             },
             {
               "$type": "Document",
@@ -595,8 +567,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Lockout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:35.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:35.783Z"
             },
             {
               "$type": "Document",
@@ -608,8 +579,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ResetPasswordConfirmation.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:50.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:50.401Z"
             },
             {
               "$type": "Document",
@@ -621,8 +591,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ResetPassword.razor",
               "ViewState": "AQIAAEgAAAAAAAAAAAAAAGAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:49.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:49.473Z"
             },
             {
               "$type": "Document",
@@ -634,8 +603,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ResendEmailConfirmation.razor",
               "ViewState": "AQIAACoAAAAAAAAAAAAAADoAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:47.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:47.881Z"
             },
             {
               "$type": "Document",
@@ -647,8 +615,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\RegisterConfirmation.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:46.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:46.647Z"
             },
             {
               "$type": "Document",
@@ -660,8 +627,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\InvalidUser.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:34.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:34.602Z"
             },
             {
               "$type": "Document",
@@ -673,8 +639,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\InvalidPasswordReset.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:32.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:32.862Z"
             },
             {
               "$type": "Document",
@@ -686,8 +651,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\ForgotPasswordConfirmation.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:31.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:31.989Z"
             },
             {
               "$type": "Document",
@@ -699,8 +663,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\AccessDenied.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:07:58.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:07:58.337Z"
             },
             {
               "$type": "Document",
@@ -712,8 +675,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAAGEAAAB3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:54.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:54.856Z"
             },
             {
               "$type": "Document",
@@ -725,8 +687,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\SetPassword.razor",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAFMAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:57.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:57.706Z"
             },
             {
               "$type": "Document",
@@ -738,8 +699,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\ResetAuthenticator.razor",
               "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAACOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T05:08:58.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:08:58.465Z"
             },
             {
               "$type": "Document",
@@ -751,8 +711,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\Index.razor",
               "ViewState": "AQIAADAAAAAAAAAAAAAAAEkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T01:10:36.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T01:10:36.94Z"
             },
             {
               "$type": "Document",
@@ -764,8 +723,7 @@
               "RelativeToolTip": "Components\\Account\\Pages\\Manage\\GenerateRecoveryCodes.razor",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAD8AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T01:09:37.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T01:09:37.599Z"
             },
             {
               "$type": "Document",
@@ -777,8 +735,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T00:32:20.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T00:32:20.739Z"
             },
             {
               "$type": "Document",
@@ -790,8 +747,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-14T03:51:56.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T03:51:56.505Z"
             },
             {
               "$type": "Document",
@@ -803,8 +759,7 @@
               "RelativeToolTip": "Data\\Configure\\ApplicationUserConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T00:42:38.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T00:42:38.868Z"
             },
             {
               "$type": "Document",
@@ -816,8 +771,7 @@
               "RelativeToolTip": "Data\\ApplicationUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T05:03:49.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T05:03:49.848Z"
             },
             {
               "$type": "Document",
