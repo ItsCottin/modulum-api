@@ -4,10 +4,10 @@
 
 @attribute [Authorize]
 
-<PageTitle>Auth</PageTitle>
+<PageTitle>Autenticação</PageTitle>
 
 <h1>Você esta autorizado</h1>
 
 <AuthorizeView>
-    Hello @context.User.Identity?.Name!
+    Olá @context.User.Identity?.Name!
 </AuthorizeView>

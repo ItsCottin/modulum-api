@@ -10,22 +10,22 @@
 @inject NavigationManager NavigationManager
 @inject IdentityRedirectManager RedirectManager
 
-<PageTitle>Register confirmation</PageTitle>
+<PageTitle>Confirmação de registro</PageTitle>
 
-<h1>Register confirmation</h1>
+<h1>Confirmação de registro</h1>
 
 <StatusMessage Message="@statusMessage" />
 
 @if (emailConfirmationLink is not null)
 {
     <p>
-        This app does not currently have a real email sender registered, see <a href="https://aka.ms/aspaccountconf">these docs</a> for how to configure a real email sender.
-        Normally this would be emailed: <a href="@emailConfirmationLink">Click here to confirm your account</a>
+        Este aplicativo não possui atualmente um remetente de e-mail real registrado, consulte <a href="https://aka.ms/aspaccountconf">estes documentos</a> para saber como configurar um remetente de e-mail real.
+        Normalmente isso seria enviado por e-mail: <a href="@emailConfirmationLink">Clique aqui para confirmar sua conta</a>
     </p>
 }
 else
 {
-    <p>Please check your email to confirm your account.</p>
+    <p>Verifique seu e-mail para confirmar sua conta.</p>
 }
 
 @code {
@@ -52,7 +52,7 @@ else
         if (user is null)
         {
             HttpContext.Response.StatusCode = StatusCodes.Status404NotFound;
-            statusMessage = "Error finding user for unspecified email";
+            statusMessage = "Erro ao localizar usuário para e-mail não especificado";
         }
         else if (EmailSender is IdentityNoOpEmailSender)
         {

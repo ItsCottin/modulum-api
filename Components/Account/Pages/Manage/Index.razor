@@ -9,7 +9,7 @@
 @inject IdentityUserAccessor UserAccessor
 @inject IdentityRedirectManager RedirectManager
 
-<PageTitle>Profile</PageTitle>
+<PageTitle>Perfil</PageTitle>
 
 <h3>Profile</h3>
 <StatusMessage />
@@ -20,15 +20,15 @@
             <DataAnnotationsValidator />
             <ValidationSummary class="text-danger" role="alert" />
             <div class="form-floating mb-3">
-                <input type="text" value="@username" class="form-control" placeholder="Please choose your username." disabled />
-                <label for="username" class="form-label">Username</label>
+                <input type="text" value="@username" class="form-control" placeholder="Por favor escolha seu nome de usuário." disabled />
+                <label for="username" class="form-label">Nome de usuário</label>
             </div>
             <div class="form-floating mb-3">
-                <InputText @bind-Value="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
+                <InputText @bind-Value="Input.PhoneNumber" class="form-control" placeholder="Por favor, insira seu número de telefone." />
                 <label for="phone-number" class="form-label">Phone number</label>
                 <ValidationMessage For="() => Input.PhoneNumber" class="text-danger" />
             </div>
-            <button type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Salvar</button>
         </EditForm>
     </div>
 </div>
@@ -60,18 +60,18 @@
             var setPhoneResult = await UserManager.SetPhoneNumberAsync(user, Input.PhoneNumber);
             if (!setPhoneResult.Succeeded)
             {
-                RedirectManager.RedirectToCurrentPageWithStatus("Error: Failed to set phone number.", HttpContext);
+                RedirectManager.RedirectToCurrentPageWithStatus("Erro: Falha ao definir o número de telefone.", HttpContext);
             }
         }
 
         await SignInManager.RefreshSignInAsync(user);
-        RedirectManager.RedirectToCurrentPageWithStatus("Your profile has been updated", HttpContext);
+        RedirectManager.RedirectToCurrentPageWithStatus("Seu perfil foi atualizado", HttpContext);
     }
 
     private sealed class InputModel
     {
         [Phone]
-        [Display(Name = "Phone number")]
+        [Display(Name = "Número de telefone")]
         public string? PhoneNumber { get; set; }
     }
 }
