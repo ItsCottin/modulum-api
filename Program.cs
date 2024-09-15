@@ -42,9 +42,9 @@ builder.Services.AddSwaggerGen(option =>
     ("v1",
         new OpenApiInfo
         {
-            Title = "DocumentaÃ§Ã£o Swagger API Modulum",
+            Title = "Documentação Swagger API Modulum",
             Version = "v1",
-            Description = "Essa e a documentaÃ§Ã£o swagger da API Modulum utilizando swagger UI com interface do ReDoc",
+            Description = "Essa e a documentação swagger da API Modulum utilizando swagger UI com interface do ReDoc",
             Contact = new OpenApiContact
             {
                 Name = "Rodrigo Cotting Fontes",
@@ -73,11 +73,11 @@ app.UseCors("wasm");
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
-    app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "API Modulum");
-    });
+app.UseSwagger();
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "API Modulum");
+});
 //}
 app.UseReDoc(options =>
 {

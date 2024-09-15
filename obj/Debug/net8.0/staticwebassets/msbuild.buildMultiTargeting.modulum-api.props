@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\modulum-api.props" />
+</Project>
