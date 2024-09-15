@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j5YoM89L2kg=",
+  "dgSpecHash": "a4y54MS0zNQ=",
   "success": true,
-  "projectFilePath": "C:\\_Programacao\\Projetos\\New Modulum\\modulum\\modulum-api\\modulum.csproj",
+  "projectFilePath": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\modulum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cotti\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\cotti\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

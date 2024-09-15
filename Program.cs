@@ -56,8 +56,6 @@ builder.Services.AddSwaggerGen(option =>
     option.OperationFilter<AddRequiredHeaderParameter>();
 });
 
-if (app.Environment.IsDevelopment())
-{
 builder.Services.AddCors(option => option.AddPolicy("wasm",
     policy => policy.WithOrigins(builder.Configuration["BackendUrl"] ?? "",
     builder.Configuration["FrontendUrl"] ?? "")
@@ -65,7 +63,7 @@ builder.Services.AddCors(option => option.AddPolicy("wasm",
     .AllowAnyHeader()
     .AllowCredentials()
     ));
-}
+
 
 var app = builder.Build();
 
