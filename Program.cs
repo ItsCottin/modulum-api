@@ -42,9 +42,9 @@ builder.Services.AddSwaggerGen(option =>
     ("v1",
         new OpenApiInfo
         {
-            Title = "Documentação Swagger API Modulum",
+            Title = "DocumentaÃ§Ã£o Swagger API Modulum",
             Version = "v1",
-            Description = "Essa e a documentação swagger da API Modulum utilizando swagger UI com interface do ReDoc",
+            Description = "Essa e a documentaÃ§Ã£o swagger da API Modulum utilizando swagger UI com interface do ReDoc",
             Contact = new OpenApiContact
             {
                 Name = "Rodrigo Cotting Fontes",
@@ -56,6 +56,8 @@ builder.Services.AddSwaggerGen(option =>
     option.OperationFilter<AddRequiredHeaderParameter>();
 });
 
+if (app.Environment.IsDevelopment())
+{
 builder.Services.AddCors(option => option.AddPolicy("wasm",
     policy => policy.WithOrigins(builder.Configuration["BackendUrl"] ?? "",
     builder.Configuration["FrontendUrl"] ?? "")
@@ -63,7 +65,7 @@ builder.Services.AddCors(option => option.AddPolicy("wasm",
     .AllowAnyHeader()
     .AllowCredentials()
     ));
-
+}
 
 var app = builder.Build();
 
