@@ -1,82 +1,94 @@
-using Microsoft.AspNetCore.Components.Authorization;
+using modulum_api.Data;
+using modulum_api.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Modulum;
-using Modulum.Components;
-using Modulum.Components.Account;
-using Modulum.Data;
-using Syncfusion.Blazor;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Filters;
+using Microsoft.Extensions.Options;
+using modulum_api.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
 
 builder.Configuration.SetBasePath(AppContext.BaseDirectory)
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     .AddJsonFile("appsettings.Development.json", optional: true)
     .AddEnvironmentVariables();
-//var configuration = builder.Build();
-//startup.ConfigureServices(builder.Services);
-
-// Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
-builder.Services.AddSyncfusionBlazor();
-builder.Services.AddCascadingAuthenticationState();
-builder.Services.AddScoped<IdentityUserAccessor>();
-builder.Services.AddScoped<IdentityRedirectManager>();
-builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
-
-builder.Services.AddAuthentication(options =>
-    {
-        options.DefaultScheme = IdentityConstants.ApplicationScheme;
-        options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-    }).AddGoogle(options =>
-    {
-        builder.Configuration.Bind("Google", options);
-    }).AddOpenIdConnect("AzureAD", options =>
-    {
-        builder.Configuration.Bind("AzureAD", options);
-        //options.Scope.Add(""); // Valor do objeto "AzureAD", campo "access_as_user"
-        options.Scope.Add(builder.Configuration.GetValue("AzureAD", "access_as_user"));
-    }).AddIdentityCookies();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<IdentityDbContext>(options =>
     options.UseSqlServer(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddSignInManager()
-    .AddDefaultTokenProviders();
 
-builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+builder.Services.AddIdentityApiEndpoints<IdentityUser>().
+    AddRoles<IdentityRole>().
+    AddEntityFrameworkStores<IdentityDbContext>();
+
+builder.Services.AddScoped<IRoleService, RoleService>();
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(option =>
+{
+    option.AddSecurityDefinition("oauth2", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+    option.SwaggerDoc
+    ("v1",
+        new OpenApiInfo
+        {
+            Title = "Documentação Swagger API Modulum",
+            Version = "v1",
+            Description = "Essa e a documentação swagger da API Modulum utilizando swagger UI com interface do ReDoc",
+            Contact = new OpenApiContact
+            {
+                Name = "Rodrigo Cotting Fontes",
+                Email = "cottingfontes@hotmail.com"
+            }
+        }
+    );
+    option.OperationFilter<SecurityRequirementsOperationFilter>();
+    option.OperationFilter<AddRequiredHeaderParameter>();
+});
+
+builder.Services.AddCors(option => option.AddPolicy("wasm",
+    policy => policy.WithOrigins(builder.Configuration["BackendUrl"] ?? "",
+    builder.Configuration["FrontendUrl"] ?? "")
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowCredentials()
+    ));
+
 
 var app = builder.Build();
-//startup.Configure(app, builder.Environment);
-//Register Syncfusion license https://help.syncfusion.com/common/essential-studio/licensing/how-to-generate
-//Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
 
+app.MapIdentityApi<IdentityUser>();
+
+app.UseCors("wasm");
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "API Modulum");
+    });
+//}
+app.UseReDoc(options =>
 {
-    app.UseMigrationsEndPoint();
-}
-else
-{
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
+    options.DocumentTitle = "Swagger API Modulum Documentacao";
+    options.SpecUrl = "/swagger/v1/swagger.json";
+});
 
 app.UseHttpsRedirection();
 
-app.UseStaticFiles();
-app.UseAntiforgery();
+app.UseAuthorization();
 
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
-
-// Add additional endpoints required by the Identity /Account Razor components.
-app.MapAdditionalIdentityEndpoints();
+app.MapControllers();
 
 app.Run();

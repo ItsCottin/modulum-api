@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Programacao\\Projetos\\Modulum\\Modulum.csproj": {}
+    "C:\\_Programacao\\Projetos\\New Modulum\\modulum\\modulum-api\\modulum.csproj": {}
   },
   "projects": {
-    "C:\\_Programacao\\Projetos\\Modulum\\Modulum.csproj": {
+    "C:\\_Programacao\\Projetos\\New Modulum\\modulum\\modulum-api\\modulum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Programacao\\Projetos\\Modulum\\Modulum.csproj",
-        "projectName": "Modulum",
-        "projectPath": "C:\\_Programacao\\Projetos\\Modulum\\Modulum.csproj",
+        "projectUniqueName": "C:\\_Programacao\\Projetos\\New Modulum\\modulum\\modulum-api\\modulum.csproj",
+        "projectName": "modulum",
+        "projectPath": "C:\\_Programacao\\Projetos\\New Modulum\\modulum\\modulum-api\\modulum.csproj",
         "packagesPath": "C:\\Users\\cotti\\.nuget\\packages\\",
-        "outputPath": "C:\\_Programacao\\Projetos\\Modulum\\obj\\",
+        "outputPath": "C:\\_Programacao\\Projetos\\New Modulum\\modulum\\modulum-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,41 +50,37 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.Google": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.3, )"
             },
-            "Syncfusion.Blazor.Navigations": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[26.2.9, )"
+              "version": "[6.4.0, )"
             },
-            "Syncfusion.Blazor.QueryBuilder": {
+            "Swashbuckle.AspNetCore.Filters": {
               "target": "Package",
-              "version": "[26.2.9, )"
+              "version": "[8.0.1, )"
             },
-            "Syncfusion.Blazor.Themes": {
+            "Swashbuckle.AspNetCore.ReDoc": {
               "target": "Package",
-              "version": "[26.2.9, )"
+              "version": "[6.7.3, )"
             }
           },
           "imports": [

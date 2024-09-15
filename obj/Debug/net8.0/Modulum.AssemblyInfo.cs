@@ -11,13 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Modulum-25203999-0372-49f5-81d4-f945c8240c96")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("Modulum")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("modulum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab6aa79252e538e4f06d6acc51e8f0819cebe5e1")]
-[assembly: System.Reflection.AssemblyProductAttribute("Modulum")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Modulum")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("modulum")]
+[assembly: System.Reflection.AssemblyTitleAttribute("modulum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
