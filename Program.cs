@@ -80,7 +80,12 @@ var app = builder.Build();
 
 app.MapIdentityApi<IdentityUser>();
 
-app.UseCors("wasm");
+//app.UseCors("wasm");
+
+// Provisório - Permite acionamento da API de qualquer origem
+app.UseCors("AllowAll");
+
+
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
