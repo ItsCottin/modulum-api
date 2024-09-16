@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAACAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAqwEIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T22:43:51.604Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T22:36:28.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T22:36:28.527Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T22:36:20.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T22:36:20.447Z"
             }
           ]
         }

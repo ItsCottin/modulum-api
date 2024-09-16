@@ -64,6 +64,17 @@ builder.Services.AddSwaggerGen(option =>
 //    .AllowCredentials()
 //    ));
 
+// Provisório - Permite acionamento da API de qualquer origem
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()  // Permitir qualquer origem
+              .AllowAnyMethod()  // Permitir qualquer método (GET, POST, etc.)
+              .AllowAnyHeader(); // Permitir qualquer cabeçalho
+    });
+});
+
 
 var app = builder.Build();
 
