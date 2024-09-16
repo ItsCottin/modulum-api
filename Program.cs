@@ -56,13 +56,13 @@ builder.Services.AddSwaggerGen(option =>
     option.OperationFilter<AddRequiredHeaderParameter>();
 });
 
-builder.Services.AddCors(option => option.AddPolicy("wasm",
-    policy => policy.WithOrigins(builder.Configuration["BackendUrl"] ?? "",
-    builder.Configuration["FrontendUrl"] ?? "")
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    .AllowCredentials()
-    ));
+//builder.Services.AddCors(option => option.AddPolicy("wasm",
+//    policy => policy.WithOrigins(builder.Configuration["BackendUrl"] ?? "",
+//    builder.Configuration["FrontendUrl"] ?? "")
+//    .AllowAnyMethod()
+//    .AllowAnyHeader()
+//    .AllowCredentials()
+//    ));
 
 
 var app = builder.Build();
