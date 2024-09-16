@@ -21,14 +21,6 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Update appsettings.json with secrets
-        env:
-          CONNECTIONSTRINGS_DEFAULTCONNECTION: ${{ secrets.CONNECTIONSTRINGS_DEFAULTCONNECTION }}
-        run: |
-          jq --arg CONNECTIONSTRINGS_DEFAULTCONNECTION "$CONNECTIONSTRINGS_DEFAULTCONNECTION" \
-             '.ConnectionStrings.DefaultConnection = $CONNECTIONSTRINGS_DEFAULTCONNECTION' \
-             appsettings.json > tmp.$$.json && mv tmp.$$.json appsettings.json
-
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
