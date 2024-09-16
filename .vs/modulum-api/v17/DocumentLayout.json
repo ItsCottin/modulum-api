@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\modulum-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:modulum-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "Model\\Usuario.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Usuario.cs",
+              "RelativeToolTip": "Model\\Usuario.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAwFMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T00:37:47.309Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -44,23 +61,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T22:43:51.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "modulum-api",
+              "DocumentIndex": 4,
+              "Title": "modulum-api.csproj",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\modulum-api.csproj",
               "RelativeDocumentMoniker": "modulum-api.csproj",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\modulum-api.csproj",
               "RelativeToolTip": "modulum-api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-15T22:36:58.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T22:36:58.762Z"
             },
             {
               "$type": "Document",
@@ -70,7 +86,7 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAD/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-15T22:36:28.527Z",
               "EditorCaption": ""
@@ -83,7 +99,7 @@
               "RelativeDocumentMoniker": "appsettings.Development.json",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-15T22:36:20.447Z",
               "EditorCaption": ""

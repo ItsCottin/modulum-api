@@ -77,39 +77,11 @@ namespace modulum_api.Model
         public string? Celular { get; set; }
 
         /// <summary>
-        /// Tipo do usuário
-        /// </summary>
-        [StringLength(10)]
-        [Column("TP_USU")]
-        public string? TpUsuario { get; set; }
-
-        /// <summary>
         /// CEP do Usuário: '00000-000'
         /// </summary>
         [StringLength(11)]
         [Column("CEP_USU")]
         public string? Cep { get; set; }
-
-        /// <summary>
-        /// Bairro do Usuário
-        /// </summary>
-        [StringLength(100)]
-        [Column("BAIRRO_USU")]
-        public string? Bairro { get; set; }
-
-        /// <summary>
-        /// Estado do Usuário
-        /// </summary>
-        [StringLength(10)]
-        [Column("UF_USU")]
-        public string? Uf { get; set; }
-
-        /// <summary>
-        /// Cidade do Usuário
-        /// </summary>
-        [StringLength(100)]
-        [Column("CIDADE_USU")]
-        public string? Cidade { get; set; }
 
         /// <summary>
         /// Número do Local do Usuário
