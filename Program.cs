@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using modulum_api.Data;
 using modulum_api.Services;
 using Microsoft.AspNetCore.Identity;
@@ -6,6 +7,10 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using Microsoft.Extensions.Options;
 using modulum_api.Filters;
+using modulum_api.Model;
+using modulum_api.Configuracao;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,15 +22,21 @@ builder.Configuration.SetBasePath(AppContext.BaseDirectory)
     .AddEnvironmentVariables();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<IdentityDbContext>(options =>
+builder.Services.AddDbContext<modulum_api.Data.DbContext>(options =>
     options.UseSqlServer(connectionString));
 
-
-builder.Services.AddIdentityApiEndpoints<IdentityUser>().
-    AddRoles<IdentityRole>().
-    AddEntityFrameworkStores<IdentityDbContext>();
+builder.Services.AddIdentityApiEndpoints<IdentityUser>(options =>
+{
+    options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@. "; // Permitir @ e ponto
+}) // Achei - esse cara é o responsável por carregar endpoints do Framework Identity não listados no Controllers
+    .AddRoles<IdentityRole>()
+    .AddSignInManager<CustomSignInManager>()
+    .AddEntityFrameworkStores<modulum_api.Data.DbContext>();
 
 builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

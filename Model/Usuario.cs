@@ -4,97 +4,120 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using modulum_api.Filters;
+using Microsoft.AspNetCore.Identity;
+using System.Text.Json.Serialization;
 
 namespace modulum_api.Model
 {
-    [Table("TBL_USUARIO")]
-    public class Usuario
+    //[Table("TBL_USUARIO")]
+    public class Usuario : IdentityUser
     {
-        /// <summary>
-        /// Id único do registro de usuário
-        /// </summary>
-        [Column("ID_USU")]
-        public int Id { get; set; }
 
         /// <summary>
         /// Nome Completo do Usuário
         /// </summary>
-        [Required]
-        [StringLength(100)]
-        [Column("NOME_USU")]
-        public string? Nome { get; set; }
+        //[Column("NOME_USU")]
+        public override string? UserName { get; set; }
 
         /// <summary>
-        /// Nome de Login do Usuário
+        /// Nome Completo do Usuario Normalizado
         /// </summary>
-        [Required]
-        [StringLength(50)]
-        [Column("LOGIN_USU")]
-        public string? Login { get; set; }
-
-        /// <summary>
-        /// Senha do Usuário 
-        /// </summary>
-        [Required]
-        [StringLength(800)]
-        [Column("SENHA_USU")]
-        public string? Senha { get; set; }
-
-        /// <summary>
-        /// CPF do Usuário com formatação '000.000.000-00'.
-        /// </summary>
-        [StringLength(14)]
-        [Column("CPF_USU")]
-        public string? Cpf { get; set; }
+        /// [StringLength(100)]
+        [JsonIgnore]
+        //[Column("NOME_USU_NORM")]
+        public override string? NormalizedUserName { get; set; }
 
         /// <summary>
         /// E-mail do usuário. 
         /// </summary>
         [Required]
         [StringLength(50)]
-        [Column("EMAIL_USU")]
-        public string? Email { get; set; }
+        //[Column("EMAIL_USU")]
+        public override string? Email { get; set; }
 
         /// <summary>
-        /// Endereço do Usuário: Av. ou Rua
+        /// E-mail do Usuario Normalizado
         /// </summary>
-        [StringLength(150)]
-        [Column("ENDERECO_USU")]
-        public string? Endereco { get; set; }
+        [JsonIgnore]
+        //[Column("EMAIL_USU_NORM")]
+        public override string? NormalizedEmail { get; set; }
 
         /// <summary>
-        /// Telefone do Usuário: '(11) 0000-0000'
+        /// Campo que diz se o e-mail foi confirmado ou não
         /// </summary>
-        [StringLength(18)]
-        [Column("TELEFONE_USU")]
-        public string? Telefone { get; set; }
+        //[Column("EMAIL_CONFIRM")]
+        public override bool EmailConfirmed { get; set; }
 
         /// <summary>
-        /// Celular do Usuário: '(11) 0 0000-0000'
+        /// Obtém ou define uma representação com sal e hash da senha desse usuário.
         /// </summary>
-        [StringLength(18)]
-        [Column("CELULAR_USU")]
-        public string? Celular { get; set; }
+        [JsonIgnore]
+        //[Column("SENHA_USU")]
+        public override string? PasswordHash { get; set; }
 
         /// <summary>
-        /// CEP do Usuário: '00000-000'
+        /// Obtém ou define uma representação com sal e hash da senha desse usuário.
         /// </summary>
-        [StringLength(11)]
-        [Column("CEP_USU")]
-        public string? Cep { get; set; }
+        public string? Password { get; set; }
 
         /// <summary>
-        /// Número do Local do Usuário
+        /// Um valor aleatório que deve ser alterado sempre que as credenciais de um usuário forem alteradas (senha alterada, login removido)
         /// </summary>
-        [StringLength(10)]
-        [Column("NUMERO_CASA_USU")]
-        public string? NumeroCasa { get; set; }
+        [JsonIgnore]
+        //[Column("SECURITY_STAMP_USU")]
+        public override string? SecurityStamp { get; set; }
+
+        /// <summary>
+        /// Um valor aleatório que deve mudar sempre que um usuário persistir na loja
+        /// </summary>
+        [JsonIgnore]
+        //[Column("CURRENT_SECURITY_STAMP_USU")]
+        public override string? ConcurrencyStamp { get; set; } = Guid.NewGuid().ToString();
+
+        /// <summary>
+        /// Obtém ou define um sinalizador que indica se a autenticação de dois fatores está habilitada para este usuário.
+        /// </summary>
+        /// <value>Se "True" então 2fa está habilitado, se "false" então está desabilitado.</value>
+        //[Column("2FA_USU")]
+        public override bool TwoFactorEnabled { get; set; }
+
+        /// <summary>
+        /// Obtém ou define o número de tentativas de login malsucedidas do usuário atual.
+        /// </summary>
+        //[Column("COUNT_FAILED_ACESS")]
+        public override int AccessFailedCount { get; set; }
+
+        /// <summary>
+        /// Obtém ou define um sinalizador que indica se o usuário pode ser bloqueado.
+        /// </summary>
+        /// <value>"true" caso o usuário esteja "Bloqueado", caso "false" o usuario está "Desbloqueado"</value>
+        //[Column("LOCK_USU")]
+        public override bool LockoutEnabled { get; set; }
+
+        /// <summary>
+        /// CPF do Usuário com formatação '000.000.000-00'.
+        /// </summary>
+        [StringLength(14)]
+        //[Column("CPF_USU")]
+        public string? cpf { get; set; }
+
+        /// <summary>
+        /// Lista de Contato do usuario
+        /// </summary>
+        //[Column("EMAIL_USU")] // TODO - Esse atributo deve ser o map de uma tabela
+        public List<Contato>? contato { get; set; }
 
         /// <summary>
         /// Data de Alteração / Cadastro do Usuário
         /// </summary>
-        [Column("DT_ALTER_USU")]
-        public DateTime DataAlter { get; set; }
+        //[Column("DT_ALTER_USU")]
+        public DateTime dataAlter { get; set; }
+
+        public string[] Roles { get; set; } = new string[0];
+
+        [NotMapped][JsonIgnore] public override string? PhoneNumber { get; set; }
+        [NotMapped][JsonIgnore] public override bool PhoneNumberConfirmed { get; set; }
+        [NotMapped][JsonIgnore] public override DateTimeOffset? LockoutEnd { get; set; }
 
     }
 }

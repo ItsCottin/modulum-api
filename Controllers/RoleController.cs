@@ -7,7 +7,7 @@ using System.Net;
 
 namespace modulum_api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class RoleController : ControllerBase
     {
@@ -50,9 +50,9 @@ namespace modulum_api.Controllers
 
         [Authorize(Roles = "admin")]
         [HttpPost("addUserRoles")]
-        public async Task<ActionResult> AddUserRole([FromBody] AddUserModel addUser)
+        public async Task<ActionResult> AddUserRole([FromBody] Usuario ususario)
         {
-            var result = await _roleService.AddUserRoleAsync(addUser.UserEmail, addUser.Roles);
+            var result = await _roleService.AddUserRoleAsync(ususario.Email, ususario.Roles);
 
             if (!result)
             {

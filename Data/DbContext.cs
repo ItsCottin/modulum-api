@@ -5,9 +5,9 @@ using modulum_api.Entity;
 
 namespace modulum_api.Data
 {
-    public class IdentityDbContext : IdentityDbContext<IdentityUser>
+    public class DbContext : IdentityDbContext<IdentityUser>
     {
-        public IdentityDbContext(DbContextOptions<IdentityDbContext> dbContextOptions)
+        public DbContext(DbContextOptions<DbContext> dbContextOptions)
             : base(dbContextOptions)
         {
             

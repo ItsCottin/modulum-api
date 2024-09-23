@@ -19,8 +19,7 @@ public partial class ModulumContext : DbContext
     }
 
     public virtual DbSet<Usuario> Usuario { get; set; } = null!;
-
-    public virtual DbSet<ModelLog> ModelLog { get; set; } = null!;
+    public virtual DbSet<Contato> Contato { get; set; } = null!;
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

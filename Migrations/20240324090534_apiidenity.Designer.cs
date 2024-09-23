@@ -11,7 +11,7 @@ using modulum_api.Data;
 
 namespace modulum_api.Migrations
 {
-    [DbContext(typeof(IdentityDbContext))]
+    [DbContext(typeof(Data.DbContext))]
     [Migration("20240324090534_apiidenity")]
     partial class apiidenity
     {

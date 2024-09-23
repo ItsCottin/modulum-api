@@ -7,7 +7,11 @@ C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\modulum-api.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\modulum-api.pdb
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Azure.Core.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Azure.Identity.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Blazored.LocalStorage.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Humanizer.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\MailKit.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -37,8 +41,12 @@ C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.Identi
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\MimeKit.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Scrutor.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\SendGrid.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\StarkbankEcdsa.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.ReDoc.dll
@@ -53,6 +61,7 @@ C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.Compositi
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.Memory.Data.dll
 C:\_Programacao\Projetos\_ Modulum\modulum-api\bin\Debug\net8.0\System.Runtime.Caching.dll
@@ -131,6 +140,7 @@ C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\modulum-api.Asse
 C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\modulum-api.csproj.CoreCompileInputs.cache
 C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\modulum-api.MvcApplicationPartsAssemblyInfo.cs
 C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\modulum-api.MvcApplicationPartsAssemblyInfo.cache
+C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\modulum-api.sourcelink.json
 C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\staticwebassets.build.json
 C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\staticwebassets.development.json
 C:\_Programacao\Projetos\_ Modulum\modulum-api\obj\Debug\net8.0\staticwebassets\msbuild.modulum-api.Microsoft.AspNetCore.StaticWebAssets.props

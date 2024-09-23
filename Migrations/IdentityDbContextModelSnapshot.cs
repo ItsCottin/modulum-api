@@ -8,9 +8,9 @@ using modulum_api.Data;
 
 #nullable disable
 
-namespace idenitywebapiauthenitcation.Migrations
+namespace modulum_api.Migrations
 {
-    [DbContext(typeof(IdentityDbContext))]
+    [DbContext(typeof(Data.DbContext))]
     partial class IdentityDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
