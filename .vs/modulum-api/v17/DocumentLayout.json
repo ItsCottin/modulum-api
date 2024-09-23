@@ -11,32 +11,52 @@
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\model\\response\\cadastrousuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:model\\response\\cadastrousuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\model\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:model\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\utility\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:utility\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\model\\request\\usuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:configuracao\\customsigninmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\modulum-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:modulum-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\utility\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:utility\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:enum\\tipocontato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|c:\\_programacao\\projetos\\_ modulum\\modulum-api\\migrations\\20240324090534_apiidenity.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B28EF1B-719F-4AE3-B655-FD24AACA82A5}|modulum-api.csproj|solutionrelative:migrations\\20240324090534_apiidenity.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -130,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,39 +150,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowEgAAABTAAAA",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAADwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T00:03:59.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAUwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T14:07:53.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ModulumContext.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\ModulumContext.cs",
-              "RelativeDocumentMoniker": "Model\\ModulumContext.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\ModulumContext.cs",
-              "RelativeToolTip": "Model\\ModulumContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T01:13:27.075Z"
+              "WhenOpened": "2024-09-15T22:43:51.604Z"
             },
             {
               "$type": "Document",
@@ -188,21 +168,22 @@
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowEAAAABCAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wEAAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T00:55:46.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Usuario.cs",
-              "RelativeDocumentMoniker": "Model\\Usuario.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Usuario.cs",
-              "RelativeToolTip": "Model\\Usuario.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHMAAAAdAAAA",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAwwDoAAACNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T00:37:47.309Z"
+              "WhenOpened": "2024-09-23T00:03:59.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -212,21 +193,10 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T22:36:28.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsuarioRequest.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Request\\UsuarioRequest.cs",
-              "RelativeDocumentMoniker": "Model\\Request\\UsuarioRequest.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Request\\UsuarioRequest.cs",
-              "RelativeToolTip": "Model\\Request\\UsuarioRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T08:35:11.894Z"
+              "WhenOpened": "2024-09-15T22:36:28.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -243,7 +213,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T14:07:53.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T00:04:42.112Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:24:54.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\IAccountService.cs",
               "RelativeDocumentMoniker": "Services\\IAccountService.cs",
@@ -255,43 +261,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAtwDwAAAAdAAAA",
+              "DocumentIndex": 11,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Utility\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Utility\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Utility\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Utility\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T22:43:51.604Z"
+              "WhenOpened": "2024-09-20T03:54:01.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "Services\\AccountService.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\AccountService.cs",
-              "RelativeToolTip": "Services\\AccountService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAwwCIAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "CadastroUsuarioResponse.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Response\\CadastroUsuarioResponse.cs",
+              "RelativeDocumentMoniker": "Model\\Response\\CadastroUsuarioResponse.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Response\\CadastroUsuarioResponse.cs",
+              "RelativeToolTip": "Model\\Response\\CadastroUsuarioResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T00:04:42.112Z"
+              "WhenOpened": "2024-09-23T05:29:33.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\IEmailService.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Services\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T02:25:13.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BaseResponse.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Response\\BaseResponse.cs",
               "RelativeDocumentMoniker": "Model\\Response\\BaseResponse.cs",
               "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Response\\BaseResponse.cs",
               "RelativeToolTip": "Model\\Response\\BaseResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T00:56:33.898Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModulumContext.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\ModulumContext.cs",
+              "RelativeDocumentMoniker": "Model\\ModulumContext.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\ModulumContext.cs",
+              "RelativeToolTip": "Model\\ModulumContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:13:27.075Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T00:35:09.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioRequest.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Request\\UsuarioRequest.cs",
+              "RelativeDocumentMoniker": "Model\\Request\\UsuarioRequest.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Request\\UsuarioRequest.cs",
+              "RelativeToolTip": "Model\\Request\\UsuarioRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:35:11.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "Model\\Usuario.cs",
+              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Usuario.cs",
+              "RelativeToolTip": "Model\\Usuario.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T00:37:47.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "RoleModel.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\RoleModel.cs",
               "RelativeDocumentMoniker": "Model\\RoleModel.cs",
@@ -303,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
@@ -315,19 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\EmailService.cs",
-              "RelativeToolTip": "Services\\EmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T02:25:28.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Data\\DbContext.cs",
               "RelativeDocumentMoniker": "Data\\DbContext.cs",
@@ -339,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CustomSignInManager.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Configuracao\\CustomSignInManager.cs",
               "RelativeDocumentMoniker": "Configuracao\\CustomSignInManager.cs",
@@ -351,19 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Services\\IEmailService.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\IEmailService.cs",
-              "RelativeToolTip": "Services\\IEmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T02:25:13.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "modulum-api.csproj",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\modulum-api.csproj",
               "RelativeDocumentMoniker": "modulum-api.csproj",
@@ -375,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\RoleService.cs",
               "RelativeDocumentMoniker": "Services\\RoleService.cs",
@@ -387,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -399,19 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CustomAuthenticationStateProvider.cs",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Utility\\CustomAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "Utility\\CustomAuthenticationStateProvider.cs",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Utility\\CustomAuthenticationStateProvider.cs",
-              "RelativeToolTip": "Utility\\CustomAuthenticationStateProvider.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowAsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:54:01.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IRoleService.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Services\\IRoleService.cs",
               "RelativeDocumentMoniker": "Services\\IRoleService.cs",
@@ -423,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "EmailRequest.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\EmailRequest.cs",
               "RelativeDocumentMoniker": "Model\\EmailRequest.cs",
@@ -435,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Contato.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Model\\Contato.cs",
               "RelativeDocumentMoniker": "Model\\Contato.cs",
@@ -447,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "TipoContato.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Enum\\TipoContato.cs",
               "RelativeDocumentMoniker": "Enum\\TipoContato.cs",
@@ -459,19 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-21T00:35:09.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20240324090534_apiidenity.Designer.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Migrations\\20240324090534_apiidenity.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240324090534_apiidenity.Designer.cs",
@@ -483,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "20240324090534_apiidenity.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Migrations\\20240324090534_apiidenity.cs",
               "RelativeDocumentMoniker": "Migrations\\20240324090534_apiidenity.cs",
@@ -495,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IdentityDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\_Programacao\\Projetos\\_ Modulum\\modulum-api\\Migrations\\IdentityDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDbContextModelSnapshot.cs",

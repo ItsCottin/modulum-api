@@ -38,19 +38,13 @@ namespace modulum_api.Controllers
             if (!result.Succeeded)
             {
                 var errors = result.Errors.Select(x => x.Description).ToArray();
-                return Ok(new BaseResponse { Status = false, Mensagens = errors });
+                return Ok(new CadastroUsuarioResponse { Status = false, Mensagem = errors[0] });
             }
-            //await _userManager.AddToRoleAsync(newUser, "User");
-            //if (newUser.Email!.ToLower().StartsWith("admin"))
-            //{
-            //    await _userManager.AddToRoleAsync(newUser, "Admin");
-            //    return Ok(new RegisterResult { Successful = true });
-            //}
 
             var confirmEmailToken = await _userManager.GenerateEmailConfirmationTokenAsync(newUser); //newUser
             var encodeEmailToken = Encoding.UTF8.GetBytes(confirmEmailToken);
             var validEmailToken = WebEncoders.Base64UrlEncode(encodeEmailToken);
-            string url = $"{_configuration["BackendUrl"]}/Account/confirmEmail?userId={newUser.Id}&token={validEmailToken}"; //newUser
+            string url = $"{_configuration["FrontendUrl"]}/confirm-email/{newUser.Id}/{validEmailToken}"; //newUser
 
             var requestDto = new EmailRequest
             {
@@ -62,7 +56,7 @@ Para confirmar sua inscrição clique no link a seguir: <a href=""{url}"">confir
 Se você não solicitou esse registro, pode ignorar este e-mail com segurança. Outra pessoa pode ter digitado seu endereço de e-mail por engano."
             };
             var retunText = await _emailService.SendEmail(requestDto);
-            return Ok(new BaseResponse { Status = true, Mensagens = ["Por favor confirme seu e-mail na caixa de entrada."] });
+            return Ok(new CadastroUsuarioResponse { Status = true, Mensagem = "Por favor confirme seu e-mail na caixa de entrada.", url = url });
         }
 
         [HttpGet("confirmEmail")]
@@ -80,11 +74,11 @@ Se você não solicitou esse registro, pode ignorar este e-mail com segurança. 
                 var result = await _userManager.ConfirmEmailAsync(user, normalToken);
                 if (result.Succeeded)
                 {
-                    return Redirect($"{_configuration["FrontendUrl"]}/login"!);
+                    return Ok(new BaseResponse { Status = true, Mensagens = [ "E-mail confirmado com sucesso" ] });
                 }
-                return BadRequest();
+                return BadRequest(new BaseResponse { Status = false, Mensagens = ["Houve um erro, mais não é sua culpa"] });
             }
-            return BadRequest();
+            return BadRequest(new BaseResponse { Status = false, Mensagens = ["Houve um erro, mais não é sua culpa"] });
         }
 
         [HttpGet("isConfirmedEmail")]
